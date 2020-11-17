@@ -1,30 +1,25 @@
-# Getting Started with Create React App
+# Comic-App-React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Proyecto creado para la prueba de desarrollador Front-end
 
-## Available Scripts
+## Como instalarlo
 
-In the project directory, you can run:
+Decargar la carpeta del proyecto React-comicApp:
+
+### `npm install`
+
+Instalara todas las dependencias necesarias para correr el proyecto.
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Creara el medio para que la aplicacion corra en localhost.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
