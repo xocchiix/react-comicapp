@@ -1,38 +1,60 @@
-.App {
+.card-comic {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
   text-align: center;
+  padding-bottom: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.card-comic-title {
+  padding-top: 15px;
+  margin-bottom: 5px;
+}
+.card-comic-title-small {
+  padding-top: 15px;
+  padding-bottom: 0;
+  font-size: 0.5em;
+  margin-left: 10px;
+  display: block;
+}
+.card-comic-img {
+  padding: 15px;
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (min-width: 992px) {
+  .card-comic-title {
+    padding: 15px;
+    font-size: 2.5em;
+  }
+  .card-comic-title-small {
+    padding: 15px;
+    font-size: 0.6em;
+    margin-left: 10px;
+  }
+  .card-comic-img {
+    padding: 15px;
+    width: 100%;
+    height: 100%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (min-width: 1200px) {
+  .card-comic {
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    height: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  .card-comic-title-small {
+    font-size: 0.5em;
+    margin-left: 10px;
+  }
+  .card-comic-img {
+    width: 100%;
+    height: 100%;
   }
 }
